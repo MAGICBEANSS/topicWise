@@ -31,35 +31,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FindElementInBitonicArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindInReverseSorted.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindInRotatedSORTEDArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindMaxInBitonic.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindPeak.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindRotationIndex.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindRotationIndex2.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FindSmallestDivisorThreshold.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstAndLastOccurence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KokoEatingBananas.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.KokoEatingBananas2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumBouqets.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NextAlphabetElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SearchInNearlySortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SearchInSortedMatrix.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.org.dsa.topics [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.org.dsa.topics [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;searching&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/ppandey/Library/CloudStorage/OneDrive-GoToTechnologiesUSA,Inc/Documents/personal/code/TopicWiseDSA/org.dsa.topics/src/main/java/org/dsa/topics/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FindElementInBitonicArray.executor": "Run",
+    "Application.FindInReverseSorted.executor": "Run",
+    "Application.FindInRotatedSORTEDArray.executor": "Run",
+    "Application.FindMaxInBitonic.executor": "Run",
+    "Application.FindPeak.executor": "Run",
+    "Application.FindRotationIndex.executor": "Run",
+    "Application.FindRotationIndex2.executor": "Debug",
+    "Application.FindSmallestDivisorThreshold.executor": "Run",
+    "Application.FirstAndLastOccurence.executor": "Run",
+    "Application.KokoEatingBananas.executor": "Debug",
+    "Application.KokoEatingBananas2.executor": "Run",
+    "Application.MinimumBouqets.executor": "Run",
+    "Application.NextAlphabetElement.executor": "Run",
+    "Application.SearchInNearlySortedArray.executor": "Run",
+    "Application.SearchInSortedMatrix.executor": "Run",
+    "Maven.org.dsa.topics [clean].executor": "Run",
+    "Maven.org.dsa.topics [install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "searching",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/ppandey/Library/CloudStorage/OneDrive-GoToTechnologiesUSA,Inc/Documents/personal/code/TopicWiseDSA/org.dsa.topics/src",
+    "onboarding.tips.debug.path": "/Users/ppandey/Library/CloudStorage/OneDrive-GoToTechnologiesUSA,Inc/Documents/personal/code/TopicWiseDSA/org.dsa.topics/src/main/java/org/dsa/topics/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/org/dsa/topics/searching" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
