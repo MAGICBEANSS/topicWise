@@ -4,11 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a7ae138-9e62-49ed-bfc3-3fa7eb7e5abd" name="Changes" comment="" />
+    <list default="true" id="4a7ae138-9e62-49ed-bfc3-3fa7eb7e5abd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/FindSmallestDivisorThreshold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/KokoEatingBananas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/KokoEatingBananas2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/MinimumBouqets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/SearchInSortedMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindElementInBitonicArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindFloorInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindInReverseSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindInRotatedSORTEDArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindMaxInBitonic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindPeak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindRotationIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindRotationIndex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FirstAndLastOccurence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/NextAlphabetElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/SearchInNearlySorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/SearchInNearlySortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,20 +50,118 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.FindElementInBitonicArray.executor": "Run",
+    "Application.FindInReverseSorted.executor": "Run",
+    "Application.FindInRotatedSORTEDArray.executor": "Run",
+    "Application.FindMaxInBitonic.executor": "Run",
+    "Application.FindPeak.executor": "Run",
+    "Application.FindRotationIndex.executor": "Run",
+    "Application.FindRotationIndex2.executor": "Debug",
+    "Application.FindSmallestDivisorThreshold.executor": "Run",
+    "Application.FirstAndLastOccurence.executor": "Run",
+    "Application.KokoEatingBananas.executor": "Debug",
+    "Application.KokoEatingBananas2.executor": "Run",
+    "Application.MinimumBouqets.executor": "Run",
+    "Application.NextAlphabetElement.executor": "Run",
+    "Application.SearchInNearlySortedArray.executor": "Run",
+    "Application.SearchInSortedMatrix.executor": "Run",
     "Maven.org.dsa.topics [clean].executor": "Run",
     "Maven.org.dsa.topics [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "sorting",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "searching",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/ppandey/Library/CloudStorage/OneDrive-GoToTechnologiesUSA,Inc/Documents/personal/code/TopicWiseDSA/org.dsa.topics/src/main/java/org/dsa/topics/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.dsa.topics.searching.SELF" />
+      <recent name="org.dsa.topics.searching.revisit18March2024" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean" />
       <command value="mvn install" />
     </option>
+  </component>
+  <component name="RunManager" selected="Application.FindSmallestDivisorThreshold">
+    <configuration name="FindSmallestDivisorThreshold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsa.topics.searching.SELF.FindSmallestDivisorThreshold" />
+      <module name="org.dsa.topics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dsa.topics.searching.SELF.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KokoEatingBananas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsa.topics.searching.SELF.KokoEatingBananas" />
+      <module name="org.dsa.topics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dsa.topics.searching.SELF.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KokoEatingBananas2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsa.topics.searching.SELF.KokoEatingBananas2" />
+      <module name="org.dsa.topics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dsa.topics.searching.SELF.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumBouqets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsa.topics.searching.SELF.MinimumBouqets" />
+      <module name="org.dsa.topics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dsa.topics.searching.SELF.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchInSortedMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsa.topics.searching.SELF.SearchInSortedMatrix" />
+      <module name="org.dsa.topics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dsa.topics.searching.SELF.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FindSmallestDivisorThreshold" />
+        <item itemvalue="Application.MinimumBouqets" />
+        <item itemvalue="Application.SearchInSortedMatrix" />
+        <item itemvalue="Application.KokoEatingBananas2" />
+        <item itemvalue="Application.KokoEatingBananas" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,7 +182,273 @@
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindRotationIndex.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindRotationIndex.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindRotationIndex2.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindRotationIndex2.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindRotationIndex2.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindRotationIndex2.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindRotationIndex2.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindRotationIndex2.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindRotationIndex2.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindInRotatedSORTEDArray.java</url>
+          <line>32</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindInRotatedSORTEDArray.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindInRotatedSORTEDArray.java</url>
+          <line>38</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindInRotatedSORTEDArray.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindInRotatedSORTEDArray.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindInRotatedSORTEDArray.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindInRotatedSORTEDArray.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindInRotatedSORTEDArray.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindInRotatedSORTEDArray.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindInRotatedSORTEDArray.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/NextAlphabetElement.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindMaxInBitonic.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindMaxInBitonic.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindMaxInBitonic.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindElementInBitonicArray.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindElementInBitonicArray.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindElementInBitonicArray.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindElementInBitonicArray.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindElementInBitonicArray.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindElementInBitonicArray.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindElementInBitonicArray.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/revisit18March2024/FindElementInBitonicArray.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/KokoEatingBananas.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/KokoEatingBananas.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/KokoEatingBananas.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/KokoEatingBananas.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/KokoEatingBananas.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/KokoEatingBananas.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/KokoEatingBananas2.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/KokoEatingBananas2.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/KokoEatingBananas2.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/KokoEatingBananas2.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/KokoEatingBananas2.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/SearchInSortedMatrix.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/MinimumBouqets.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/MinimumBouqets.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/MinimumBouqets.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/MinimumBouqets.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/MinimumBouqets.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/MinimumBouqets.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/MinimumBouqets.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/dsa/topics/searching/SELF/MinimumBouqets.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/org_dsa_topics$MinimumBouqets.ic" NAME="MinimumBouqets Coverage Results" MODIFIED="1710955265942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.dsa.topics.searching.SELF.*</FILTER>
+    </SUITE>
   </component>
 </project>
