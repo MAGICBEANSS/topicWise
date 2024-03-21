@@ -5,6 +5,29 @@ import java.util.Arrays;
 public class MinimumBouqets {
     //https://takeuforward.org/arrays/minimum-days-to-make-m-bouquets/
 
+
+    /**
+     * Just like other problems like Koko Eating bananas our intuition is to find a range amd
+     * try using possible no out of the range to find the optimum solution
+     * lowBound = 1;
+     * At worst case , we have to wait for max no of days for all flowers to boom and then
+     * check if we can make m bouquets
+     * it may or may not  be a solution even after waiting max no of days
+     *
+     * Say we have array blooming like [2,3,4,8,8,2] m=2, k=4
+     *
+     * So here at least at the 8th day we will have all flowers blossomed up
+     * If we cannot make m bouqets of k adjacent one for this we may never make it .
+     *
+     * So we keep high_bound as max
+     *
+     *Now if there is a solution at max no of days , our task is to minimise this max to as low as possible
+     * So we do a binary search in the range low bound - high bound i.e. 1....max
+     * And try whether we can make required bouquets at that {mid} day or not
+     * To check this we use a method {@link #isMakePossible isMakePossible}
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         int[] flowersBoomDay = {7,7,7,7,12,7,7};
      //   int[] flowersBoomDay = {7,7,7,7,13, 11, 12, 7};
