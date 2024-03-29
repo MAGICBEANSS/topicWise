@@ -1,13 +1,13 @@
-package org.dsa.topics.DP;
+package org.dsa.topics.DP.knapsack01;
 
 import java.util.Arrays;
 
-public class CountOfSubsetsWithGivenSum {
+public class CountOfSubsetsWithEqualsSum {
     public static void main(String[] args) {
-        int[] arr = {2,3,5,6,8,10};
-        int targetSum =8;
-     //   int halfSum = totalSum/2;
-        int[][] dp = DPFiller.filler(arr.length+1,targetSum+1,0,1,-1);
+        int[] arr = {1,5,11,5};
+        int totalSum = Arrays.stream(arr).sum();
+        int halfSum = totalSum/2;
+        int[][] dp = DPFiller.filler(arr.length+1,halfSum+1,0,1,-1);
         System.out.println(solveUsingDP(dp,arr));
     }
 

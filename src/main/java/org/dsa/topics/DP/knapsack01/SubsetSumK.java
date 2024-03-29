@@ -1,4 +1,4 @@
-package org.dsa.topics.DP;
+package org.dsa.topics.DP.knapsack01;
 
 public class SubsetSumK {
     //https://www.geeksforgeeks.org/subset-sum-problem-dp-25/

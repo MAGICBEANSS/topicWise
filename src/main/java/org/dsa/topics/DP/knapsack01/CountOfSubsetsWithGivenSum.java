@@ -1,13 +1,11 @@
-package org.dsa.topics.DP;
+package org.dsa.topics.DP.knapsack01;
 
-import java.util.Arrays;
-
-public class EqualSumPartiton {
+public class CountOfSubsetsWithGivenSum {
     public static void main(String[] args) {
-        int[] arr = {1,5,11,5};
-        int totalSum = Arrays.stream(arr).sum();
-        int halfSum = totalSum/2;
-        int[][] dp = DPFiller.filler(arr.length+1,halfSum+1,0,1,-1);
+        int[] arr = {2,3,5,6,8,10};
+        int targetSum =8;
+     //   int halfSum = totalSum/2;
+        int[][] dp = DPFiller.filler(arr.length+1,targetSum+1,0,1,-1);
         System.out.println(solveUsingDP(dp,arr));
     }
 
@@ -16,15 +14,11 @@ public class EqualSumPartiton {
             for (int j = 1; j < dp[0].length; j++) {
                 dp[i][j] = dp[i-1][j];
                 if(arr[i-1]<=j) {
-                   dp[i][j] = dp[i-1][j] | dp[i-1][j-arr[i-1]];
+                    dp[i][j] = dp[i-1][j] + dp[i-1][j-arr[i-1]];
                 }
                 int z =2;
             }
         }
         return dp[dp.length-1][dp[0].length-1];
     }
-
-
-
-
 }
