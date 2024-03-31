@@ -1,18 +1,17 @@
-package org.dsa.topics.lcs;/*
 package org.dsa.topics.lcs;
 
 import java.util.Arrays;
 
-public class LongestCommonSubstring {
+public class LongestCommonSubstringMemoization {
 
     private static int max = Integer.MIN_VALUE;
     private static int[][] dp ;
 
     public static void main(String[] args) {
-        String s = "ABCDGH";
-        String t = "ACDGHR";
-       int z =  longestCommonSubstr(s,t,s.length(),t.length());
-        System.out.println(z);
+        String s = "XZABC";
+        String t = "ABCXZ";
+        int z =  longestCommonSubstr(s,t,s.length(),t.length());
+        System.out.println(max);
     }
 
 
@@ -20,7 +19,7 @@ public class LongestCommonSubstring {
         // code here
        dp = new int[S1.length()+1][S2.length()+1];
        initDP(dp);
-       int z =solveUsingMemoization2(S1,S2,0,0,0,dp);
+       int z =solveUsingRecursionMemoization(S1,S2,0,0);
        return z;
     }
 
@@ -40,23 +39,19 @@ public class LongestCommonSubstring {
         }
 
         if(dp[si][ti]!=-1) {
-            System.out.println("Not Resolving for si="+si+" and ti="+ti);
+         //   System.out.println("Not Resolving for si="+si+" and ti="+ti);
             return dp[si][ti];
         }
-
+        dp[si][ti]=0;
         if(s.charAt(si)==t.charAt(ti)) {
                 dp[si][ti] =  1+solveUsingRecursionMemoization(s, t, si + 1, ti + 1);
         }
-        else{
-            int count = 0;
-            dp[si][ti] =  Math.max(
-                    Math.max(
-                            solveUsingRecursionMemoization(s,t,si,ti+1,0),
-                            solveUsingRecursionMemoization(s,t,si+1,ti,0)
-                    )
-            );
-        }
-        return dp[ti][si];
+
+            solveUsingRecursionMemoization(s, t, si, ti + 1);
+            solveUsingRecursionMemoization(s, t, si + 1, ti);
+
+        max = Math.max(max, dp[si][ti]);
+        return dp[si][ti];
 
     }
 
@@ -111,4 +106,4 @@ public class LongestCommonSubstring {
 
 
 }
-*/
+

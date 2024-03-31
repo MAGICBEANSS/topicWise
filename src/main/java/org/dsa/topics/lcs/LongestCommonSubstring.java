@@ -9,8 +9,8 @@ public class LongestCommonSubstring {
     private static int[][] dp ;
 
     public static void main(String[] args) {
-        String s = "ABCDGH";
-        String t = "ACDGHR";
+        String s = "ABC";
+        String t = "AC";
        int z =  longestCommonSubstr(s,t,s.length(),t.length());
         System.out.println(z);
     }
