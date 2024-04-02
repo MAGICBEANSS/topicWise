@@ -1,0 +1,92 @@
+MCM
+
+problem is to partition the subproblems , so that which way of solving subproblems will be faster/cost efficient
+Suppose we have a array {40, 20, 30, 10, 30}.Now the problem say is to find the least code in multiplying the matrix.
+So where is the matrix
+we actually don't have matrix , we just have dimension of it.It does not matter to multiply each term and see the cost.multiplying numerals can be of constant time
+How cost is computed is , how many multiplications it will be required.
+
+
+Say we have matrix A1-> 10X20, a2->20x30,a3->30x50,A4->50X4
+Now we have to minimise the cost of multiplying these . i.e.
+we have to minimise cost of A1*A2*A3*A4.
+
+say we are multiplying two matrix , a ixj and b kxl , we can only multiply these if j==k
+for e.g. a=> 2x3 and b=>3x5 then a*b is possible  but if
+a=> 2x3 and b=>4x5 then a*b is not possible  as j!=k or 3!=4
+and cost of this mutiplication is i*j*k => 2*3*5 = 30;
+
+Minimise the product. but what is the option ?
+[10,5,40,20,10,15];
+see if we have A1*A2*A3*A4*A5 we have to basically group them such that , if solving those group first and then merging those results , might yield into maximum
+
+A1 =10X5
+A2= 5X40
+A3= 40X20
+A4= 20X10
+A5= 10X15
+
+Say for A1*A2*A3*A4*A5 , we grouped at i =1 , i.e right after A2
+I.E. we have partition like
+ (A1*A2)(A3*A4*A5) on a higher level it might be costing something we will get solution from A1*A2 directly i,.e
+A1XA2 = 10*5*40 = 2000 and matrix size is 10x40
+
+now for (A3*A4*A5) we will have possibility of grouping them again , (intuitin of recursion)
+(A3*A4)*A5
+		==> ON SOLVING A3XA4 we get 40x10 and cost is 8000 ==> on multiplying result wilth A5(10X15) ==> we get matrix of size 40x15 and cost 6000 . so total cost is
+		8000+6000= 14000 AND FINAL MATRIX HAS DIMENSION OF 40X15
+OR
+A3*(A4*A5)
+        ==> ON SOLVING (A4*A5) we get 20x15 and cost is 3000 ==> on multiplying the result with A3 (40X20) we get matrix of size 40x15 and cost is 12000.
+        so total cost is 12000+3000 = 15000 and final matrix has dimension of 40x15
+
+
+ So from the possibilities of  (A3*A4)*A5  and A3*(A4*A5)  we see (A3*A4)*A5  is cost efficient (14000).So we will pick this(A3*A4)*A5 possibility and discard (A3*(A4*A5))
+
+ Now we have to remultiply it to A1*A2  (cost = 2000 , mat = 10x40);
+
+ WAYUSINGI=1 ==> part1 * part2 = (cost = 2000 , mat = 10x40) * (cost= 14000 , size = 40x15) = {size = 10x15 , cost = 6000}. so total cost is 6000+14000+2000 = 22000
+
+
+Say instead of i =1 , we would have parttioned at i =2 , i.e. right after A3. ie. partitions are like
+ (A1*A2*A3)*(A4*A5)
+ so for A4*A5  AFTER MULTIPLICATION => {cost = 3000 , size = 20x15}
+ now for  (A1*A2*A3) , WE HAVE TWO groups again
+(A1*A2)*A3
+		==> ON SOLVING (A1*A2) we get 10x40 and cost is 2000 ==> on multiplying result wilth A3(40X20) ==> we get matrix of size 10x20 and cost 8000 . so total cost is
+		8000+2000= 10000 AND FINAL MATRIX HAS DIMENSION OF 10X20
+OR
+A1*(A2*A3)
+        ==> ON SOLVING (A2*A3) we get 5x20 and cost is 4000 ==> on multiplying the result with A1 (10X5) we get matrix of size 10x20 and cost is 1000.
+        so total cost is 1000+4000 = 5000 and final matrix has dimension of 10x20
+
+        So from the possibilities of  (A1*A2)*A3  and A1*(A2*A3)  we see A1*(A2*A3)5  is cost efficient (5000).So we will pick this A1*(A2*A3) possibility and discard (A1*A2)*A3
+
+ Now we have to remultiply it to A1*A2  {cost = 3000 , size = 20x15}
+
+ WAYUSINGI=2 ==> part1 * part2 = (cost = 3000 , mat = 20x15) * (cost= 5000 , size = 10x20) = {size = 10x15 , cost = 3000}. so total cost is 3000+5000+3000 = 11000
+
+
+sO WE SEE  WAYUSINGI=2 < WAYUSINGI=1;
+SIMIALRILY WE WILL FIND SOLUTION FOR OTER VALUES OF partition point I ,explore recursively the minimla solution of their sub problems and produce our minimum
+
+Now the question is for a array with values {a0,a1,a2,....an}, how we can partition
+It depends upon problem to problem
+For this problem we have to multiply the matrix , and size of matrix is determined by a[i],a[i-1]
+so say we put partition at i=0, at that time left parttion is (a0*a[-1]) . but since -1 is not possible we cannot pick
+so we have to pick starting value of i at least there from where we can have something significant
+if we put i =1 , then left is (a[0]*a[1]) , which is the minimal value
+what about maximum,
+at max we can go till arr.length-1(0 based indexing)
+say at i = arr.length-1, we can have right sub part as (arr[arr.length-1][arr.length-2]). which is also basically the last possible group
+so for this problem i lies between index = 1 to index = arr.length-1;
+
+
+
+
+
+
+
+
+
+
