@@ -1,7 +1,7 @@
 MCM
 
 problem is to partition the subproblems , so that which way of solving subproblems will be faster/cost efficient
-Suppose we have a array {40, 20, 30, 10, 30}.Now the problem say is to find the least code in multiplying the matrix.
+Suppose we have a array {40, 20, 30, 10, 30}.Now the problem say is to find the least cost in multiplying the matrix.
 So where is the matrix
 we actually don't have matrix , we just have dimension of it.It does not matter to multiply each term and see the cost.multiplying numerals can be of constant time
 How cost is computed is , how many multiplications it will be required.
